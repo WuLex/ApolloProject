@@ -1,0 +1,11 @@
+#（相当于 build + start ） ：构建（容器）并启动（容器）整个project的所有service
+docker compose up -d  
+
+#（相当于 stop + rm ）：停止并移除整个project的所有services
+docker compose down -v 
+
+# 查看服务内所有容器日志输出，
+docker compose logs [serviceName]
+
+
+docker-compose up -d 指定服务名称
